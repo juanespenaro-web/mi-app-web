@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mapa con Google Maps</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Mapa con Google Maps</h1>
+  </header>
+
+  <main>
+    <!-- DIV del mapa -->
+    <div id="map"></div>
+
+    <!-- Botón para activar modo "clic para agregar marcador" -->
+    <button id="btnMarker">🖱️ Activar: añadir marcador con clic</button>
+  </main>
+
+  <footer>
+    <p>Proyecto - Google Maps JavaScript API</p>
+  </footer>
+
+  <!-- cargamos nuestro JS (sin type="module") -->
+  <script src="app.js"></script>
+
+  <!-- Google Maps JS: reemplaza TU_API_KEY_AQUI por tu clave -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0uV0LEwDJnfWtKkny2Wuym8gzwQziznc&callback=initMap" async defer></script>
+</body>
+</html>
